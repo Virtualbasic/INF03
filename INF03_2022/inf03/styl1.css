@@ -1,0 +1,45 @@
+body{
+    background-color: #F6E5DC;
+}
+
+button{
+    margin: 10px;
+    padding: 5px;
+    background-color:#2F180C ;
+    color: khaki;
+}
+.Rezerwuj{
+    margin: 10px;
+    padding: 5px;
+    background-color:#2F180C ;
+    color: khaki;
+}
+
+.baner{
+    background-color: #2F180C;
+    text-align: center;
+    color: khaki;
+    height:  60px;
+
+}
+
+.lewy{
+    width: 60%;
+    float: left;
+}
+.prawy{
+    font-size: 150%;
+    margin: 70px;
+}
+.dolny{
+    clear: both;
+    background-color: #D0B6A8;
+    text-align: center;
+    padding: 30px;
+}
+
+.stopka{
+    background-color: #2F180C;
+    color: khaki;
+    height: 60px;
+}

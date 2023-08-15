@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Restauracja Wszystkie Smak</title>
+    <link rel="stylesheet" href="styl1.css">
+</head>
+<body>
+    <div class="baner">
+        <h1>Witamy w restauracji „Wszystkie Smaki”</h1>
+    </div>
+    <div class="lewy">
+        <img src="menu.jpg" alt="Nasze danie" height="350px">
+    </div>
+    <div class="prawy">
+        <h4>U nas dobrze zjesz</h4>
+        <ol>
+            <li>Obiady od 40zł</li>
+            <li>Przekąski od 10zł</li>
+            <li>Kolacje od 20zł</li>
+        </ol>
+    </div>
+    <div class="dolny">
+        <h2>Zarezerwuj stolik on-line</h2>
+        <form action="rezerw.php" method="POST">
+            <p>Data (format rrrr-mm-dd):</p><br>
+            <input type="text" name="data" id="data"><br>
+            <p>Ile osób?</p><br>
+            <input type="number" name="ilos"><br>
+            <p>Twój number telefonu</p><br>
+            <input type="text" name="telefon"><br>
+            <input type="radio" name ="confirm"> Zgadzam się na przetważanie moich danych osobowych  <br>
+            <input type="reset" value="Wyczyść" class="Rezerwuj">  <input type="submit" name="Rezerwuj" class="Rezerwuj">
+
+        </form>
+    </div>
+    <div class="stopka">
+        <p>Stronę internetową opracował: SILKUS</p>
+    </div>
+</body>
+</html>
