@@ -1,0 +1,56 @@
+*{
+    font-family: Tahoma;
+}
+
+.baner{
+    background-color: rgb(107, 142, 35);
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+.stopka{
+    background-color: rgb(107, 142, 35);
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+.dane{
+    background-color: rgb(255, 218, 185);
+    padding: 3px;
+}
+.prawy{
+    background-color: rgb(255, 239, 213);
+    width: 27%;
+    height: 550px;
+    float: right;
+}
+
+.lewy{
+    background-color: rgb(255, 239, 213);
+    width: 27%;
+    height: 550px;
+    float: left;
+}
+.srodkowy{
+    background-color: rgb(255, 239, 213);
+    width: 46%;
+    height: 550px;
+    float: left;
+    align-items: center;
+}
+h3{
+    text-align: center;
+}
+h3::first-letter{
+    color: green;
+}
+
+img{
+    height: 90px;
+    padding: 7px;
+}
+
+img:hover{
+    background-color: rgb(255, 218, 185);
+}
