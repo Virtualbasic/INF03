@@ -10,6 +10,7 @@ function checkprice(){
     }
    
     //console.log(forma)
+    //alternative way
     //let forma = document.querySelector('input[name="strz"]:checked').value;
     //wynik.innerHTML = forma;
 }
