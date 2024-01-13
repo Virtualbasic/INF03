@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" href="favicon.png">
+    <script javascript>
+        function formularz(){
+            let imie = document.getElementById("imie").value;   
+            let nazwisko = document.getElementById("nazwisko").value;
+            let mail = document.getElementById("mail").value.toLowerCase();
+            let lista = document.getElementById("lista");
+            let wynik = document.getElementById("wynik");
+            wynik.innerHTML = imie + " " + nazwisko + "<br/>" + mail + "<br/>" + "Usługa: " + lista.options[lista.selectedIndex].text;
+    
+            }
+        </script>
+</head>
+<body>
+    <div class="kontener">
+    <div class="baner">
+   <img src="animacja.gif">
+
+
+
+    </div>
+
+
+    <div class="menu">
+    <a href="index.html">O NAS</a>
+    <a href="kontakt.html">KONTAKT</a>
+
+
+    </div>
+    <div class="glowny1">
+        <h2>Kim jesteśmy?</h2>
+        <p>Jesteśmy firmą z wieloletnim doświadczeniem w zakresie IT.”</p>
+    
+
+
+
+    </div>
+
+
+
+
+
+    <div class="glowny2">
+  <form>
+        <table>
+    <tr>
+    <td>Imię:</td><td><input type="text" id="imie"><td></td>
+    </tr>
+    <tr>
+        <td>Nazwisko</td><td><input type="text" id="nazwisko"><td></td>
+    </tr>
+    <tr>
+        <td>E-mail:</td><td><input type="text" id="mail"><td></td>
+    </tr>
+    <tr>
+        <td>Uługa:</td><td><select id="lista">
+            <option value="naprawa komputera">naprawa komputera</option>
+            <option value="odzyskiwanie danych">odzyskiwanie danych</option>
+            <option value="problemy z oprogramowaniem">problemy z oprogramowaniem</option>
+            <option value="konfiguracja sieci LAN"> konfiguracja sieci LAN</option>
+            <option value="inne "> inne </option>
+            </select>
+            </td>
+
+
+    </tr>
+    <tr>
+        <td></td><td><input type="checkbox" checked>Wyślij kopię wiadomości</input></td>
+    </tr>
+    <tr>
+    <td></td><td><button type="reset" >RESETUJ</button><button type="button" id="wyslij" onclick="formularz();">WYŚLIJ</button></td>
+    </tr>
+    </table>
+    </form>
+    <p id="wynik">
+       
+    </p>
+    </div>
+
+
+
+
+    <div class="glowny3">
+        <h2>Co nas cechuje?</h2>
+        <p>Doświadczenie, niezawodność, konkurencyjne ceny.</p>
+    
+
+
+
+
+    </div>
+
+    <div class="stopka">
+<p>AUTOR STRONY:<strong>JOLO</strong></p>
+     
+
+
+
+    </div>
+</div>
+
+</body>
+</html>

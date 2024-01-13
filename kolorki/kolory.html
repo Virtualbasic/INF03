@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="PL EN">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomocnik CSS</title>
+    <link rel="stylesheet" href="styl2.css">
+    
+</head>
+<body>
+    <div class="kontener">
+        <div class="baner1">
+            <h1>Pomocnik CSS</h1>
+        </div>
+        <div class="baner2">
+            <ul>
+                <li><a href="kolory.html">Kolory</a></li>
+                <li><a href="czcionki.html">Czcionki</a></li>
+                <li><a href="style.html">Style CSS</a></li>
+                <li><a href="https://www.w3schools.com/css/" blank>Pomoc</a></li>
+            </ul>
+        </div>
+        <div class="glowny">
+            <h2>Podaj składowoą H koloru w kodzie HSL</h2>
+            <p>0 do 30 czerwienie, do 60 żółcie, do 150 zielenie, do 250 niebieskie, do 360 fiolet i purpura</p>
+            <img src="kolory.jpg" alt="Przestrzeń barw HSL"><br>
+            <input type="number" id="kolor" placeholder="0-360">
+            <button type="button" onclick="changeColor();">Generuj palete</button>
+            <table>
+                <tr>
+                    <td colspan="4" id="main">Główny</td>
+                </tr>
+                <tr>
+                    <td id="kolor1">Kolor1</td><td id="kolor2">Kolor2</td><td id="kolor3">Kolor3</td><td id="kolor4">Kolor4</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="stopka">
+                <p>Autor: Jezus</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

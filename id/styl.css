@@ -1,0 +1,71 @@
+body{
+
+    background-color:  #99FFCC;
+    
+    }
+    
+    .kontener{
+    width: 1000px;
+    margin:auto;
+    }
+    
+    .baner{
+        background-color: #99FF66;
+        height:200px;
+    }
+    
+    
+    .menu{
+    background-color:#66CCFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:200%;
+    
+    
+    }
+    
+    .glowny1, .glowny2, .glowny3{
+    width:310px;
+    text-align: center;
+    float:left;
+    
+    
+    
+    
+    
+    }
+    
+    .stopka{
+    background-color:  #66CCFF;
+    color: #006666;
+    text-align:right;
+    height:30px;
+    padding:20px;
+    clear:both;
+    }
+    
+    a{
+    color: #006666;
+    text-align: right;
+    text-decoration: none;
+    margin:50px;
+    
+    }
+    
+    h2, h3{
+    
+    text-align: center;
+    }
+    
+    
+    button[type=reset ]{
+    
+    background-color: #FF0000;
+    
+    }
+    button[type=button]
+    {
+    
+    background-color: #00FF00  ;
+    }
