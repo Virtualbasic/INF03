@@ -1,0 +1,7 @@
+SELECT haslo FROM `uzytkownicy` WHERE login = "Justyna";
+
+SELECT COUNT(id) FROM `dane`;
+
+SELECT login , dane.rok_urodz , dane.przyjaciol , dane.hobby , dane.zdjecie FROM `uzytkownicy` JOIN dane ON dane.id = uzytkownicy.id WHERE login = "Justyna";
+
+ALTER TABLE dane ADD COLUMN stanowisko VARCHAR(255);
